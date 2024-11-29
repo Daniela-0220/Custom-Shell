@@ -11,6 +11,6 @@ The shell is very simple (conceptually): it runs in a while loop, repeatedly ask
 The loop continues indefinitely, until the user types the built-in command exit, at which point it exits.
 <h4>2. Paths</h4>
 The path variable contains the list of all directories to search, in order, when the user types a command, like ls.
-<h4>3. Built-in Commands</h4>: exit, cd, jobs, fg, bg
-<h4>4. Controlling Terminal</h4>: Ctrl-C, Ctrl-Z, kill, pkill
-<h4>5. Pipes</h4>: | and & (run in background)
+<h4>3. Built-in Commands</h4> exit, cd, jobs, fg, bg
+<h4>4. Controlling Terminal</h4> Ctrl-C, Ctrl-Z, kill, pkill
+<h4>5. Pipes</h4> | and & (run in background)
